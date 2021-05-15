@@ -2,7 +2,8 @@
 If you know you know
 **Clone repo or run this command:**
 
-`wget -q https://raw.githubusercontent.com/cloudex99/Destiny-2-Matchmaking-Firewall/main/d2firewall.sh -O ./d2firewall.sh`
+`wget -q https://raw.githubusercontent.com/Steinyamite/D2TrialsFirewall
+/main/d2firewall.sh -O ./d2firewall.sh`
 
 **Usage**
 
