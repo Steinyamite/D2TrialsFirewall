@@ -292,7 +292,7 @@ sudo iptables -I FORWARD -d 146.66.156.0/23 -j DROP
 sudo iptables -I FORWARD -d 153.254.86.0/24 -j DROP
 sudo iptables -I FORWARD -d 155.133.224.0/24 -j DROP
 sudo iptables -I FORWARD -d 155.133.225.0/24 -j DROP
-#sudo iptables -I FORWARD -d 155.133.226.0/24 -j DROP
+sudo iptables -I FORWARD -d 155.133.226.0/24 -j DROP
 sudo iptables -I FORWARD -d 155.133.227.0/24 -j DROP
 sudo iptables -I FORWARD -d 155.133.228.0/23 -j DROP
 sudo iptables -I FORWARD -d 155.133.230.0/23 -j DROP
@@ -313,7 +313,7 @@ sudo iptables -I FORWARD -d 155.133.252.0/24 -j DROP
 sudo iptables -I FORWARD -d 155.133.253.0/24 -j DROP
 sudo iptables -I FORWARD -d 155.133.254.0/24 -j DROP
 sudo iptables -I FORWARD -d 155.133.255.0/24 -j DROP
-sudo iptables -I FORWARD -d 162.254.192.0/24 -j DROP
+#sudo iptables -I FORWARD -d 162.254.192.0/24 -j DROP
 sudo iptables -I FORWARD -d 162.254.193.0/24 -j DROP
 sudo iptables -I FORWARD -d 162.254.194.0/23 -j DROP
 sudo iptables -I FORWARD -d 162.254.196.0/24 -j DROP
