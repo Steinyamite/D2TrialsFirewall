@@ -280,6 +280,41 @@ setup () {
     ((INDEX1++))
   done
 
+# Blocking Servers
+sudo iptables -A INPUT -s 146.66.155.52 -j DROP
+sudo iptables -A INPUT -s 155.133.248.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.230.0/24 -j DROP
+sudo iptables -A INPUT -s 185.25.182.0/24 -j DROP
+sudo iptables -A INPUT -s 103.10.124.0/24 -j DROP
+sudo iptables -A INPUT -s 103.10.125.0/24 -j DROP
+sudo iptables -A INPUT -s 139.45.193.0/24 -j DROP
+sudo iptables -A INPUT -s 146.66.154.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.232.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.233.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.235.0/24 -j DROP
+
+sudo iptables -A INPUT -s 155.133.238.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.239.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.245.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.246.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.249.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.250.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.252.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.253.0/24 -j DROP
+sudo iptables -A INPUT -s 155.133.254.0/24 -j DROP
+
+sudo iptables -A INPUT -s 162.254.192.0/24 -j DROP
+sudo iptables -A INPUT -s 162.254.193.0/24 -j DROP
+sudo iptables -A INPUT -s 162.254.195.0/24 -j DROP
+sudo iptables -A INPUT -s 162.254.198.0/24 -j DROP
+sudo iptables -A INPUT -s 162.254.199.0/24 -j DROP
+sudo iptables -A INPUT -s 185.25.183.0/24 -j DROP
+sudo iptables -A INPUT -s 190.217.33.0/24 -j DROP
+sudo iptables -A INPUT -s 205.185.194.0/24 -j DROP
+sudo iptables -A INPUT -s 205.196.6.0/24 -j DROP
+sudo iptables -A INPUT -s 205.209.16.0/24 -j DROP
+sudo iptables -A INPUT -s 205.234.119.0/24 -j DROP
+
   if [ -z "$1" ]; then
     echo -e "${GREEN}Setup is complete and Matchmaking Firewall is now active.${NC}"
   fi
